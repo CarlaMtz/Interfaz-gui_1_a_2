@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid rgb(13, 13, 14);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+  thead {
+    background: #080808;
+    margin: 0px;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: blanchedalmond;
+  }
+tr:nth-child(even){
+background-color: rgb(204, 199, 199);
+}
+.headerTable {
+  background: #e2dfdf;
+  margin: 0px;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: rgb(7, 7, 7);
+}
+
+/* .table{
+  border-spacing: 0;
+  border-collapse:collapse;
+  width: 100%;
+} */
+/* .th
+{text-align: center;
+  padding: 0.2rem;
+  background-color: #000;
+  color:#f4f4f4;
+  font-size: 12px;
+  border-spacing: 5px;
+  border-color: rgb(194, 11, 11);
+} */
+
+/* .tb
+{text-align: center;
+  padding: 0.3rem;
+  background-color: rgb(182, 177, 177);
+  color:#080808;
+  font-size: 10px;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+  border-color: black;
+} */
+table {
+  width: 100%;
+  border: 1px solid #000;
+}
+th, td {
+  width: 20%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 3px;
+  caption-side: bottom;
+}
+.tr{
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: rgb(248, 245, 245);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: inline-block;
+  background-color: blue;
+}
+
+.btn-plus{
+  font-Size: 20px;
+  color: blue; 
+  cursor: pointer; 
+  position:relative;
+  top: 0px;
+  left: 300px;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+.form-control select {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+.form-control textarea {
+  width: 100%;
+  height: 90px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+  font-family: inherit;
+}
+
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
